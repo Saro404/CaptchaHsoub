@@ -1,10 +1,10 @@
 <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="CaptchaHsoub.aspx.vb" Inherits="CaptchaHsoub.CaptchaHsoub" %>
    <!-- 
-            CAPTCHA Hsoub 
-====> 
-====> @author: Sara Alsaqer Twitter:Saro_404
-====> version 1.0
-       Description: vb.net, asp.net client for Hsoub CAPTACHA API
+          
+===============  CAPTCHA Hsoub  ===============
+        @author: Sara Alsaqer Twitter:Saro_404
+        version 1.0
+        Description: vb.net, asp.net client for Hsoub CAPTACHA API
         @hcaptcha_input As String : يحمل مدخلات المستخدم.
         @hcaptcha_challenge: كود challenge أنشئ بواسطة سيرفر كابتشا حسوب.
         @hcaptcha_key: مفتاح API الخاص بك.Get one from here: http://captcha.hsoub.com/signup
