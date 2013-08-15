@@ -72,7 +72,7 @@
         <div>
             <!-- بداية كود كابشتا حسوب -->
             <script type="text/javascript"><!--
-    hcaptcha_options = { language: 'ar', key: 'b7799c839e69bd3c1d232964b6283cbd', background: '#516ca3', border: '#000000' };
+    hcaptcha_options = { language: 'ar', key: 'API_KEY', background: '#516ca3', border: '#000000' };
     //--></script>
             <script type="text/javascript" src="https://captcha.hsoub.com/hcaptcha.js"></script>
             <!-- نهاية كود كابتشا حسوب -->
