@@ -1,7 +1,4 @@
 <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="CaptchaHsoub.aspx.vb" Inherits="CaptchaHsoub.CaptchaHsoub" %>
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
    <!-- 
             CAPTCHA Hsoub 
 ====> 
@@ -20,6 +17,9 @@
 
        // Bismillah..
 -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
     <title>Captcha Hsoub</title>
     <style>
