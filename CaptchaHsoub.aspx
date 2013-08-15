@@ -22,6 +22,7 @@
 
 <head runat="server">
     <title>Captcha Hsoub</title>
+    <!-- Styling -->
     <style>
         #Submit
         {
