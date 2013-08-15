@@ -15,7 +15,7 @@ Public Class CaptchaHsoub
         Dim input, challenge, key, language 'القيم التي ترسل لكابتشا حاسوب
         input = System.Web.HttpContext.Current.Request.Form("hcaptcha_input") ' القيمة المدخلة من المستخدم
         challenge = System.Web.HttpContext.Current.Request.Form("hcaptcha_challenge") ' كود challenge أنشئ بواسطة سيرفر كابتشا حسوب.
-        key = "" ' Captcha API key,Get one from here: http://captcha.hsoub.com/signup
+        key = System.Web.HttpContext.Current.Request.Form("hcaptcha_key") ' Captcha API key,Get one from here: http://captcha.hsoub.com/signup
         language = System.Web.HttpContext.Current.Request.Form("hcaptcha_language") ' لغة كابتشا حسوب.
         'التاكد من القيم بجميع الحقول ليست خالية 
         If (String.IsNullOrEmpty(input) Or String.IsNullOrEmpty(challenge) Or String.IsNullOrEmpty(key) Or String.IsNullOrEmpty(language)) Then
